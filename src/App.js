@@ -1,11 +1,10 @@
-import './App.css';
-import LifeCycleA from './LifeCycleA';
+import "./App.css";
+import LifeCycleA from "./LifeCycleA";
 
 function App() {
   return (
     <div className="App">
-      
-      <LifeCycleA/>
+      <LifeCycleA />
     </div>
   );
 }

@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
 class LifeCycle extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
             name: "hariharane",
         };
         console.log("LifeCycleA Constructor ");
-
-
     }
 
     componentDidMount() {
@@ -18,7 +17,6 @@ class LifeCycle extends Component {
     static getDerivedStateFromProps() {
         console.log("LifeCycleA getDerivedStateFromProps ")
         return null;
-
     }
 
     render() {
@@ -29,6 +27,7 @@ class LifeCycle extends Component {
             </div>
         );
     }
+    
 }
 
 export default LifeCycle;
